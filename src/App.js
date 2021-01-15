@@ -31,7 +31,7 @@ export default function App() {
 
     useEffect(() => {
         setNextSongIndex(() => {
-            if (currentSongIndex + 1 > 5) {
+            if (currentSongIndex + 1 > 4) {
                 return 0;
             } else {
                 return currentSongIndex + 1;

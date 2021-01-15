@@ -22,7 +22,7 @@ class MainPage extends React.Component{
             <div className="container">
                 <Particles
                     canvasClassName="example"
-                    height="260vh"
+                    height="275vh"
                     width="98%"
                     params={{
                         particles: {
@@ -270,7 +270,16 @@ class MainPage extends React.Component{
                     </ul>
                 </div>
                 <div className="page3">
-                    <img src={"/happy.gif"} alt="Landscape"/>
+                    <div className="quoteText">
+                        Twinkle, twinkle, little star. Happy birthday from afar.
+                    </div>
+                    <div className="box">
+                        <img src={"/happy.gif"} alt="Landscape"/>
+                        <div className="photo2">
+                            <img src={"/shaam/kid1.jpg"} alt="land" style={{height:"90%",width:"100%",padding:" 1rem 1rem 0 1rem"}}/>
+                            <div className="hash">#onceaKYUTIalwaysaKYUTI</div>
+                        </div>
+                    </div>
                 </div>
                 <div className="page4">
                     <div className="quoteText">
