@@ -137,7 +137,7 @@ class MainPage extends React.Component{
                 />
                 <main className="main">
                     <div className="photo">
-                        <img src={"/shaam/1.jpg"} style={{height:"29.5rem",width:"20rem",padding:"1rem 1rem 0 1rem"}}/>
+                        <img src={"/shaam/1.jpg"} alt="land" style={{height:"29.5rem",width:"20rem",padding:"1rem 1rem 0 1rem"}}/>
                         <div className="hash">#20yearsyoung</div>
                     </div>
                     <div className="text">
@@ -325,7 +325,7 @@ class MainPage extends React.Component{
                             <img src={"/jungoo3.jpg"} alt="Landscape" style={{height:"83%",width:"100%",padding:"1rem 1rem 0 1rem"}}/>
                             <div className="hash" >Even if we have hard times, it matters a lot when we are happy.</div>
                         </div>
-                        <img src={"/purpleyou.png"} />
+                        <img src={"/purpleyou.png"}  alt="land"/>
                         <div className="jungoo2">
                             <img src={"/jungoo4.jpg"} alt="Landscape" style={{height:"83%",width:"100%",padding:"1rem 1rem 0 1rem"}}/>
                             <div className="hash">I PURPLE YOU</div>
