@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./App.scss";
+import "./App.scss";
 import Particles from "react-particles-js";
 
 function play() {
@@ -270,15 +270,15 @@ class MainPage extends React.Component{
                     </ul>
                 </div>
                 <div className="page3">
-                    <img src={"/happy.gif"}/>
+                    <img src={"/happy.gif"} alt="Landscape"/>
                 </div>
                 <div className="page4">
                     <div className="quoteText">
                         Work hard & Eat lots of cake.
                     </div>
                     <div>
-                        <img src={"/cake.gif"}/>
-                        <img src={"/cake.gif"}/>
+                        <img src={"/cake.gif"} alt="Landscape"/>
+                        <img src={"/cake.gif"} alt="Landscape"/>
                     </div>
                 </div>
                 <div className="page5">
@@ -287,47 +287,47 @@ class MainPage extends React.Component{
                     </div>
                     <div className="container2">
                         <div className="card">
-                            <img src="/shaam/katy1.jpg"/>
+                            <img src="/shaam/katy1.jpg" alt="Landscape"/>
                             <div className="card__head">blah blah</div>
                         </div>
                         <div className="card">
-                            <img src="/shaam/kid2.jpg"/>
+                            <img src="/shaam/kid2.jpg" alt="Landscape"/>
                             <div className="card__head">blah blah</div>
                         </div>
                         <div className="card">
-                            <video id="myVideo" src={"/shaam/didi.mp4"} style={{height:"100%",width:"100%",padding:" 1rem 1rem 0 1rem"}} onMouseEnter={play} onMouseLeave={stop}/>
+                            <video id="myVideo" src={"/shaam/didi.mp4"} style={{height:"100%",width:"100%",padding:" 1rem 1rem 0 1rem"}} onMouseEnter={play} onMouseLeave={stop} />
                             <div className="card__head">blah blah</div>
                         </div>
                         <div className="card">
-                            <img src="/shaam/24.jpg"/>
+                            <img src="/shaam/24.jpg" alt="Landscape"/>
                             <div className="card__head">blah blah</div>
                         </div>
                         <div className="card">
-                            <img src="/shaam/yash2.jpg"/>
+                            <img src="/shaam/yash2.jpg" alt="Landscape"/>
                             <div className="card__head">blah blah</div>
                         </div>
                         <div className="card">
-                            <img src="/shaam/yash.jpg"/>
+                            <img src="/shaam/yash.jpg" alt="Landscape"/>
                             <div className="card__head">blah blah</div>
                         </div>
                         <div className="card">
-                            <img src="/shaam/aryan.jpg"/>
+                            <img src="/shaam/aryan.jpg" alt="Landscape"/>
                             <div className="card__head">blah blah</div>
                         </div>
                     </div>
                 </div>
                 <div className="page6">
                     <div className="quoteText">
-                        And  JUNGOO Loves You, Too <img src={'/right.png'} className="emoji"/><img src={'/left.png'} className="emoji"/>
+                        And  JUNGOO Loves You, Too <img src={'/right.png'} className="emoji" alt="Landscape"/><img src={'/left.png'} alt="Landscape" className="emoji"/>
                     </div>
                     <div className="jungoo">
                         <div className="jungoo1">
-                            <img src={"/jungoo3.jpg"} style={{height:"83%",width:"100%",padding:"1rem 1rem 0 1rem"}}/>
+                            <img src={"/jungoo3.jpg"} alt="Landscape" style={{height:"83%",width:"100%",padding:"1rem 1rem 0 1rem"}}/>
                             <div className="hash" >Even if we have hard times, it matters a lot when we are happy.</div>
                         </div>
                         <img src={"/purpleyou.png"} />
                         <div className="jungoo2">
-                            <img src={"/jungoo4.jpg"} style={{height:"83%",width:"100%",padding:"1rem 1rem 0 1rem"}}/>
+                            <img src={"/jungoo4.jpg"} alt="Landscape" style={{height:"83%",width:"100%",padding:"1rem 1rem 0 1rem"}}/>
                             <div className="hash">I PURPLE YOU</div>
                         </div>
                     </div>
