@@ -4,16 +4,19 @@ import Particles from "react-particles-js";
 
 function play() {
     const myVideo = document.getElementById("myVideo");
-    const myAudio = document.getElementById("myAudio");
-    myAudio.pause();
     myVideo.play();
-    myVideo.loop="true";
 }
-function stop() {
-    const myVideo = document.getElementById("myVideo");
-    const myAudio = document.getElementById("myAudio");
-    myAudio.play();
-    myVideo.pause();
+function play1() {
+    const myVideo1 = document.getElementById("myVideo1");
+    myVideo1.play();
+}
+function play2() {
+    const myVideo2 = document.getElementById("myVideo2");
+    myVideo2.play();
+}
+function play3() {
+    const myVideo3 = document.getElementById("myVideo3");
+    myVideo3.play();
 }
 
 class MainPage extends React.Component{
@@ -296,32 +299,60 @@ class MainPage extends React.Component{
                     </div>
                     <div className="container2">
                         <div className="card">
+                            <img src="/shaam/sham-mom.jpg" alt="Landscape"/>
+                            <div className="card__head">CHOUDHAVIN</div>
+                        </div>
+                        <div className="card">
                             <img src="/shaam/katy1.jpg" alt="Landscape"/>
-                            <div className="card__head">blah blah</div>
+                            <div className="card__head">KA CHAAND</div>
                         </div>
                         <div className="card">
                             <img src="/shaam/kid2.jpg" alt="Landscape"/>
-                            <div className="card__head">blah blah</div>
+                            <div className="card__head">HO YA</div>
                         </div>
                         <div className="card">
-                            <video id="myVideo" src={"/shaam/didi.mp4"} style={{height:"100%",width:"100%",padding:" 1rem 1rem 0 1rem"}} onMouseEnter={play} onMouseLeave={stop} />
-                            <div className="card__head">blah blah</div>
+                            <video id="myVideo" muted loop src={"/shaam/didi.mp4"} style={{height:"100%",width:"100%",padding:" 1rem 1rem 0 1rem"}} onMouseEnter={play} />
+                            <div className="card__head">AAFTAAB HO?</div>
+                        </div>
+                        <div className="card">
+                            <video id="myVideo1" loop src={"/shaam/vid.mp4"} style={{height:"100%",width:"100%",padding:" 1rem 1rem 0 1rem"}} onMouseEnter={play1}/>
+                            <div className="card__head">JO</div>
+                        </div>
+                        <div className="card">
+                            <video id="myVideo2" loop src={"/shaam/vid2.mp4"} style={{height:"100%",width:"100%",padding:" 1rem 1rem 0 1rem"}} onMouseEnter={play2} />
+                            <div className="card__head">BHI</div>
+                        </div>
+                        <div className="card">
+                            <video id="myVideo3" loop src={"/shaam/vid1.mp4"} style={{height:"100%",width:"100%",padding:" 1rem 1rem 0 1rem"}} onMouseEnter={play3} />
+                            <div className="card__head">HO</div>
+                        </div>
+                        <div className="card">
+                            <img src="/shaam/sham-didi.jpg" alt="Landscape"/>
+                            <div className="card__head">TUM</div>
                         </div>
                         <div className="card">
                             <img src="/shaam/24.jpg" alt="Landscape"/>
-                            <div className="card__head">blah blah</div>
+                            <div className="card__head">KHUDA KI</div>
                         </div>
                         <div className="card">
                             <img src="/shaam/yash2.jpg" alt="Landscape"/>
-                            <div className="card__head">blah blah</div>
+                            <div className="card__head">KASAM</div>
                         </div>
                         <div className="card">
                             <img src="/shaam/yash.jpg" alt="Landscape"/>
-                            <div className="card__head">blah blah</div>
+                            <div className="card__head">LAJAWAB</div>
                         </div>
                         <div className="card">
                             <img src="/shaam/aryan.jpg" alt="Landscape"/>
-                            <div className="card__head">blah blah</div>
+                            <div className="card__head">HO!!</div>
+                        </div>
+                        <div className="card">
+                            <img src="/shaam/sham-bk.jpg" alt="Landscape"/>
+                            <div className="card__head">#KONTENT</div>
+                        </div>
+                        <div className="card">
+                            <img src="/shaam/bhaiya.jpg" alt="Landscape"/>
+                            <div className="card__head">Bhao Bhao Bhao!</div>
                         </div>
                     </div>
                 </div>

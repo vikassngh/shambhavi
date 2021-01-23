@@ -197,6 +197,7 @@
     position: relative;
 
     .card__head {
+      font-family: Gabriola;
       color: black;
       background: rgba(255, 30, 173, 0.75);
       padding: 0.5em;
@@ -213,7 +214,7 @@
     }
 
     &:hover {
-      flex-grow: 3;
+      flex-grow: 5;
 
       img {
         object-fit: inherit;
@@ -250,24 +251,21 @@
       filter: grayscale(100%);
     }
 
-    &:not(:nth-child(7)) {
+    &:not(:nth-child(14)) {
       margin-right: 1em;
     }
 
-    &:nth-child(1):hover {
-      flex-grow: 1.8;
+    &:nth-child(10):hover {
+      flex-grow: 4;
     }
-
-    &:nth-child(5):hover {
-      flex-grow: 1.8;
+    &:nth-child(11):hover {
+      flex-grow: 4;
     }
-
-    &:nth-child(6):hover {
-      flex-grow: 1.8;
+    &:nth-child(12):hover {
+      flex-grow: 4;
     }
-
-    &:nth-child(7):hover {
-      flex-grow: 1.8;
+    &:nth-child(13):hover {
+      flex-grow: 4;
     }
   }
 }
